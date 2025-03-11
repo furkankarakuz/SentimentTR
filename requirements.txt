@@ -1,0 +1,4 @@
+tensorflow==2.18.0
+streamlit==1.42.2
+pillow==11.1.0
+firebase-admin==6.5.0
