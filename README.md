@@ -1,4 +1,4 @@
-# SentimentTR 📊🇹🇷
+# SentimentTR
 
 SentimentTR is a Turkish sentiment analysis project that classifies texts into **positive, negative, or neutral** sentiments using an LSTM-based deep learning model. The project includes data preprocessing, model training, and deployment on **Streamlit**.
 
