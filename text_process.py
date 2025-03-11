@@ -13,8 +13,8 @@ def clean_text(text):
     text = text.translate(turkish_map)
     text = text.lower()
     text = re.sub(r'\d+', '', text)
-    text = ' '.join([word for word in text.split() if word not in stop_words])
     text = re.sub(r'\s+', ' ', text).strip()
+    text = ' '.join([word for word in text.split() if word not in stop_words])
     return text
 
 
