@@ -24,7 +24,7 @@ with col3:
         result = tokenizasyon(text, model, tokenizer)
         if "error" in result:
             error = result["error"]
-            st.error(f"Please write text with turkish words. Check your text {error}")
+            st.error(f"Please write a text containing Turkish words. Check your text. {error}")
             add_log(text, result, "error")
         else:
             predict_label, predict_score = result["predict"][0], result["predict"][1]
