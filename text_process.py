@@ -15,6 +15,7 @@ def clean_text(text):
     text = re.sub(r'\d+', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
     text = ' '.join([word for word in text.split() if word not in stop_words])
+    text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 
