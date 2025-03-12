@@ -6,7 +6,7 @@ from log_process import firebase_initialize
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 
-int_to_label = {0: "Negative", 1: "Notr", 2: "Positive"}
+int_to_label = {0: "Negative", 1: "Neutral", 2: "Positive"}
 
 
 @st.cache_resource
